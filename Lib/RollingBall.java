@@ -21,7 +21,7 @@ public class RollingBall extends JPanel implements ActionListener {
         x -= 2 ;
         start_angle += 2 ;
         if(x<-80) x = getWidth() ;
-        if (start_angle >= 360) start_angle = getWidth() ;
+        if (start_angle >= 360) start_angle = 0 ;
         repaint();
 
     }
